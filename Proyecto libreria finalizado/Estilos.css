@@ -1,0 +1,239 @@
+:root {
+    --titulos: #FFA732;
+    --texto: #848480;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+ }
+
+.contenedor{
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedorOfi{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+h1 {
+
+    color: var(--titulos);
+
+}
+
+h2 {
+
+    color: var(--titulos);
+
+}
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+img {
+
+    width: 40%;
+
+}
+
+
+
+/****Img de la libreria ***/
+
+.logo-libreria .img_libre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 228, 130, 0.582);
+
+}
+
+.logo-libreria .Name-produc {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--titulos);
+    padding: 8px 0px;
+
+}
+
+
+
+
+.logo-libreria .Name-produc a {
+
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+/* Iconos de libreria */
+
+#inicio img {
+    width: 75px;
+
+}
+
+#producto img {
+
+    width: 75px;
+
+}
+
+#ubicacion img {
+
+    width: 75px;
+
+}
+
+/* marcas de los productos */
+
+
+#marca a {
+
+text-decoration: none;
+color: black;
+
+}
+
+.img_marcas img {
+width: 200px;
+height: 200px;
+padding-bottom: 50px;
+
+
+}
+.img_marcas {
+
+display: flex;
+justify-content: space-around;
+
+}
+/*********************************************** footer *******************/
+.FooterPrincipal{
+    
+border-top-style:solid ;
+color: var(--texto);
+    background-color:var(--titulos);
+    display: flex;
+   text-align: center;
+    
+}
+
+
+
+.FooterName {
+margin: auto;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+.FooterName h1{
+    color: #848480;
+}
+
+/*********************************************** Enlace Ubicaicon *******************/
+
+
+.ubicacion h2{
+ text-align: center;
+ font-size: 50px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ubicacion p{
+    font-size: 20px;
+
+}
+.ubicacion img{
+    width: 15rem;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.Img_Bertiha {
+  
+   
+    text-align: center;
+}
+.Img_Bertiha img{
+ width: 50%;
+border-bottom-style:solid;
+color: #848480;
+
+}
+/**********************************************************ENlace marcas ******************************************/
+
+.MarcasImagenes {
+justify-content: space-around;
+display: flex;
+}
+.MarcasImagenes img{
+    width: 300px;
+    height: 250px;
+}
+.Principal{
+   
+    display: block;
+    text-align: center;
+   
+}
+.img_libre_Principal{
+    width:100%;
+
+
+    text-align: center;
+
+
+}
+.img_libre_Principal img{
+    
+    width:800px;
+    height: 500px;
+
+
+}
+.Listado_ol{
+ 
+    width: 250px;
+    text-align: center;
+ 
+}
+.Listado_ol li:hover  {
+    background-color: var(--texto);
+    color: var(--titulos);
+}
+.Listado_ol ol li {
+    
+    list-style: none;
+padding: 20px;
+background-color: var(--titulos);
+border-radius: 25px;
+}
+.Listado_ol a {
+    text-decoration: none;
+    color: black;
+}
+
+.img_Principal{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
